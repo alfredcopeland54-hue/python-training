@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="converter">
+    <title><h1>Seconds Converter</h1></title>
+    <link rel="stylesheet" href="{{url_for('static',filename= 'style.css')}}">
+  </head>
+ <body>
+  <div class="converter"> 
+    <form method="POST">
+     <label for="Number of Seconds">
+        Type in number of seconds:
+     </label>
+     <input type="number" id="seconds_input"
+     name="seconds" required>
+     <button type="submit"> Convert </button>
+    </form>
+      <h1> Result </h1>
+      <p id="result">{{result}}</p>
+ </div>
+</div>
+
+      
+ </body>
+  </html>

@@ -1,0 +1,77 @@
+body {
+  font-family: "Comic Sans MS",cursive;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+font-family:"Comic Sans MS",cursive;
+font-size: 40px;
+}
+
+input{
+    padding: 10px 20px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { 
+    
+    -webkit-appearance:none;
+    margin:0;
+    
+}
+
+button{
+   
+    padding:10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 10px;
+    display:block;
+    width: 30%;
+    margin:0 auto;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border:none;
+
+    background-color: #2563eb;
+    color:white;
+}
+
+button:hover{
+    background-color: #1d4ed8;
+}
+
+.converter h1{
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.converter h1{
+    margin-bottom: 25px;
+}
+.converter label{
+    display:block;
+    margin-bottom: 8px;
+}
+.converter input{
+    display:block;
+    width: 45%;
+    margin: 0 auto 15px ;
+    box-sizing: border-box;
+}
+
+#result{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
